@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Readiness & Wellbeing Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="badge">🎓 STUDENT SELF-CHECK</div>
+      <h1>University Readiness & Wellbeing Quiz</h1>
+      <p>Answer 20 questions to reflect on your study habits, stress, independence, and preparation for college or university.</p>
+      <div class="notice">This is a self-reflection tool, not a psychological or academic diagnosis.</div>
+    </header>
+
+    <div class="progress-wrap">
+      <div class="progress-bar"><div id="progress"></div></div>
+      <span id="progressText">0 / 20 answered</span>
+    </div>
+
+    <form id="quizForm"></form>
+    <button id="submitBtn" type="button">See My Student Profile</button>
+
+    <section id="result" class="result">
+      <div class="result-icon">🎓</div>
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+
+      <h3>📌 Your main areas to work on</h3>
+      <ul id="areas"></ul>
+
+      <h3>💡 Tips for university preparation</h3>
+      <ul id="tips"></ul>
+
+      <div class="next-step">
+        <strong>Remember:</strong> University readiness is something you can build. You do not need to be perfect before you start.
+      </div>
+
+      <button id="restartBtn" type="button">Take Quiz Again</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
